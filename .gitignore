@@ -107,7 +107,7 @@ DerivedData
 *.xcuserstate
 
 # CocoaPod
-Pods/*
+SRCNN-ios/Pods/*
 
 # others
 *.swp
