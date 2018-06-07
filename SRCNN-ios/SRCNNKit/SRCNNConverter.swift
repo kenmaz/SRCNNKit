@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreML
+import CoreMLHelpers
 
 public class SRCNNConverter {
 

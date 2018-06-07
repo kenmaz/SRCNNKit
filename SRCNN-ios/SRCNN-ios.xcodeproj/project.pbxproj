@@ -13,20 +13,14 @@
 		5E5E48F62043BE3600CE4F72 /* SRCNNConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEB699E203885F4004CF9E6 /* SRCNNConverter.swift */; };
 		5E5E48F72043BE3600CE4F72 /* UIImageView+SRCNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3258C4203DC98000B86EFB /* UIImageView+SRCNN.swift */; };
 		5E5E48F82043BE9200CE4F72 /* SRCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A48C2043851F004C93D7 /* SRCNN.mlmodel */; };
-		5E5E49092043BFE500CE4F72 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49012043BFE500CE4F72 /* Math.swift */; };
-		5E5E490A2043BFE500CE4F72 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49022043BFE500CE4F72 /* NonMaxSuppression.swift */; };
-		5E5E490B2043BFE500CE4F72 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49032043BFE500CE4F72 /* Predictions.swift */; };
-		5E5E490C2043BFE500CE4F72 /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49042043BFE500CE4F72 /* CVPixelBuffer+Helpers.swift */; };
-		5E5E490D2043BFE500CE4F72 /* MultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49052043BFE500CE4F72 /* MultiArray.swift */; };
-		5E5E490E2043BFE500CE4F72 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49062043BFE500CE4F72 /* MLMultiArray+Image.swift */; };
-		5E5E490F2043BFE500CE4F72 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49072043BFE500CE4F72 /* UIImage+CVPixelBuffer.swift */; };
-		5E5E49102043BFE500CE4F72 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E49082043BFE500CE4F72 /* Array.swift */; };
 		5E6EACC420383D2D001DC8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EACC320383D2D001DC8F0 /* AppDelegate.swift */; };
 		5E6EACC620383D2D001DC8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EACC520383D2D001DC8F0 /* ViewController.swift */; };
 		5E6EACC920383D2D001DC8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACC720383D2D001DC8F0 /* Main.storyboard */; };
 		5E6EACCB20383D2D001DC8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACCA20383D2D001DC8F0 /* Assets.xcassets */; };
 		5E6EACCE20383D2D001DC8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACCC20383D2D001DC8F0 /* LaunchScreen.storyboard */; };
 		5EF806302053BE87005FCE6C /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF8062F2053BE86005FCE6C /* sample.png */; };
+		66881302338BCBA6E297D0CE /* Pods_SRCNNKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8854735CD3B11DFE8960F0E2 /* Pods_SRCNNKit.framework */; };
+		CA13227ADEEE445877B868AF /* Pods_SRCNN_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22E76F0807E110F4C5BDB45 /* Pods_SRCNN_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,18 +48,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		348A548DE0469D301B7E695B /* Pods-SRCNN-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRCNN-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRCNN-ios/Pods-SRCNN-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		5E3258C4203DC98000B86EFB /* UIImageView+SRCNN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+SRCNN.swift"; sourceTree = "<group>"; };
 		5E5E48E12043BD5C00CE4F72 /* SRCNNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRCNNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5E48E32043BD5C00CE4F72 /* SRCNNKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRCNNKit.h; sourceTree = "<group>"; };
 		5E5E48E42043BD5C00CE4F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E5E49012043BFE500CE4F72 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		5E5E49022043BFE500CE4F72 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
-		5E5E49032043BFE500CE4F72 /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
-		5E5E49042043BFE500CE4F72 /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
-		5E5E49052043BFE500CE4F72 /* MultiArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiArray.swift; sourceTree = "<group>"; };
-		5E5E49062043BFE500CE4F72 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
-		5E5E49072043BFE500CE4F72 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
-		5E5E49082043BFE500CE4F72 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		5E6EACC020383D2D001DC8F0 /* SRCNN-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRCNN-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6EACC320383D2D001DC8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E6EACC520383D2D001DC8F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +63,11 @@
 		5E83A48C2043851F004C93D7 /* SRCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SRCNN.mlmodel; path = ../../model/SRCNN.mlmodel; sourceTree = "<group>"; };
 		5EEB699E203885F4004CF9E6 /* SRCNNConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCNNConverter.swift; sourceTree = "<group>"; };
 		5EF8062F2053BE86005FCE6C /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = ../../model/sample/sample.png; sourceTree = "<group>"; };
+		828890A8B0FC79C45900510B /* Pods-SRCNNKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRCNNKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRCNNKit/Pods-SRCNNKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8854735CD3B11DFE8960F0E2 /* Pods_SRCNNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRCNNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C022503E02B3264F309A5F2 /* Pods-SRCNN-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRCNN-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRCNN-ios/Pods-SRCNN-ios.release.xcconfig"; sourceTree = "<group>"; };
+		A4444DF64D3A4ECDEA3DE672 /* Pods-SRCNNKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRCNNKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRCNNKit/Pods-SRCNNKit.release.xcconfig"; sourceTree = "<group>"; };
+		F22E76F0807E110F4C5BDB45 /* Pods_SRCNN_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRCNN_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66881302338BCBA6E297D0CE /* Pods_SRCNNKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5E48E82043BD5C00CE4F72 /* SRCNNKit.framework in Frameworks */,
+				CA13227ADEEE445877B868AF /* Pods_SRCNN_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,25 +99,8 @@
 				5EEB699E203885F4004CF9E6 /* SRCNNConverter.swift */,
 				5E3258C4203DC98000B86EFB /* UIImageView+SRCNN.swift */,
 				5E5E48E42043BD5C00CE4F72 /* Info.plist */,
-				5E5E48ED2043BE1600CE4F72 /* CoreMLHelpers */,
 			);
 			path = SRCNNKit;
-			sourceTree = "<group>";
-		};
-		5E5E48ED2043BE1600CE4F72 /* CoreMLHelpers */ = {
-			isa = PBXGroup;
-			children = (
-				5E5E49082043BFE500CE4F72 /* Array.swift */,
-				5E5E49042043BFE500CE4F72 /* CVPixelBuffer+Helpers.swift */,
-				5E5E49012043BFE500CE4F72 /* Math.swift */,
-				5E5E49062043BFE500CE4F72 /* MLMultiArray+Image.swift */,
-				5E5E49052043BFE500CE4F72 /* MultiArray.swift */,
-				5E5E49022043BFE500CE4F72 /* NonMaxSuppression.swift */,
-				5E5E49032043BFE500CE4F72 /* Predictions.swift */,
-				5E5E49072043BFE500CE4F72 /* UIImage+CVPixelBuffer.swift */,
-			);
-			name = CoreMLHelpers;
-			path = ../../CoreMLHelpers/CoreMLHelpers;
 			sourceTree = "<group>";
 		};
 		5E6EACB720383D2D001DC8F0 = {
@@ -132,6 +109,8 @@
 				5E6EACC220383D2D001DC8F0 /* SRCNN-ios */,
 				5E5E48E22043BD5C00CE4F72 /* SRCNNKit */,
 				5E6EACC120383D2D001DC8F0 /* Products */,
+				7866E3702C066361C76D0C6A /* Pods */,
+				5F79F583AA05333D7EA5CD52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +137,26 @@
 			path = "SRCNN-ios";
 			sourceTree = "<group>";
 		};
+		5F79F583AA05333D7EA5CD52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22E76F0807E110F4C5BDB45 /* Pods_SRCNN_ios.framework */,
+				8854735CD3B11DFE8960F0E2 /* Pods_SRCNNKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7866E3702C066361C76D0C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				348A548DE0469D301B7E695B /* Pods-SRCNN-ios.debug.xcconfig */,
+				9C022503E02B3264F309A5F2 /* Pods-SRCNN-ios.release.xcconfig */,
+				828890A8B0FC79C45900510B /* Pods-SRCNNKit.debug.xcconfig */,
+				A4444DF64D3A4ECDEA3DE672 /* Pods-SRCNNKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -176,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5E48EC2043BD5C00CE4F72 /* Build configuration list for PBXNativeTarget "SRCNNKit" */;
 			buildPhases = (
+				513647A32CA3DB0BFF661654 /* [CP] Check Pods Manifest.lock */,
 				5E5E48DC2043BD5C00CE4F72 /* Sources */,
 				5E5E48DD2043BD5C00CE4F72 /* Frameworks */,
 				5E5E48DE2043BD5C00CE4F72 /* Headers */,
@@ -194,10 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E6EACD220383D2D001DC8F0 /* Build configuration list for PBXNativeTarget "SRCNN-ios" */;
 			buildPhases = (
+				60CE5F8612E1D27F1DE88A79 /* [CP] Check Pods Manifest.lock */,
 				5E6EACBC20383D2D001DC8F0 /* Sources */,
 				5E6EACBD20383D2D001DC8F0 /* Frameworks */,
 				5E6EACBE20383D2D001DC8F0 /* Resources */,
 				5EFF5FF920438B7300B9CDBE /* Embed Frameworks */,
+				6266C2EBE0B1B6AFE1CE3C5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,22 +271,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		513647A32CA3DB0BFF661654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRCNNKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CE5F8612E1D27F1DE88A79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRCNN-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6266C2EBE0B1B6AFE1CE3C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SRCNN-ios/Pods-SRCNN-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CoreMLHelpers/CoreMLHelpers.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreMLHelpers.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRCNN-ios/Pods-SRCNN-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E5E48DC2043BD5C00CE4F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E5E48F62043BE3600CE4F72 /* SRCNNConverter.swift in Sources */,
-				5E5E490C2043BFE500CE4F72 /* CVPixelBuffer+Helpers.swift in Sources */,
 				5E5E48F82043BE9200CE4F72 /* SRCNN.mlmodel in Sources */,
 				5E5E48F72043BE3600CE4F72 /* UIImageView+SRCNN.swift in Sources */,
-				5E5E490A2043BFE500CE4F72 /* NonMaxSuppression.swift in Sources */,
-				5E5E490D2043BFE500CE4F72 /* MultiArray.swift in Sources */,
-				5E5E49102043BFE500CE4F72 /* Array.swift in Sources */,
-				5E5E490B2043BFE500CE4F72 /* Predictions.swift in Sources */,
-				5E5E490F2043BFE500CE4F72 /* UIImage+CVPixelBuffer.swift in Sources */,
-				5E5E49092043BFE500CE4F72 /* Math.swift in Sources */,
-				5E5E490E2043BFE500CE4F72 /* MLMultiArray+Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +380,7 @@
 /* Begin XCBuildConfiguration section */
 		5E5E48EA2043BD5C00CE4F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828890A8B0FC79C45900510B /* Pods-SRCNNKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +406,7 @@
 		};
 		5E5E48EB2043BD5C00CE4F72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4444DF64D3A4ECDEA3DE672 /* Pods-SRCNNKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +539,7 @@
 		};
 		5E6EACD320383D2D001DC8F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348A548DE0469D301B7E695B /* Pods-SRCNN-ios.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -503,6 +557,7 @@
 		};
 		5E6EACD420383D2D001DC8F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C022503E02B3264F309A5F2 /* Pods-SRCNN-ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
