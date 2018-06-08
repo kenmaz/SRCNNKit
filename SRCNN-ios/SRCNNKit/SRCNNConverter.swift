@@ -7,7 +7,6 @@
 
 import UIKit
 import CoreML
-import CoreMLHelpers
 
 public class SRCNNConverter {
 
@@ -83,12 +82,6 @@ public class SRCNNConverter {
                     fatalError()
                     continue
                 }
-                guard let buff = UIImage(cgImage: cropped).pixelBuffer(width: patchInSize, height: patchInSize) else {
-                    fatalError()
-                    continue
-                }
-                let patchIn = PatchIn(buff: buff, position: CGPoint(x: x, y: y))
-                patchesIn.append(patchIn)
             }
         }
         return patchesIn
@@ -115,15 +108,6 @@ public class SRCNNConverter {
         
         for patch in patches {
             let pos = patch.position
-            guard let image = patch.buff.image(offset: 0, scale: 255) else {
-                fatalError()
-                continue
-            }
-            let rect = CGRect(x: pos.x * CGFloat(patchOutSize),
-                              y: pos.y * CGFloat(patchOutSize),
-                              width: CGFloat(patchOutSize),
-                              height: CGFloat(patchOutSize))
-            image.draw(in: rect)
         }
         
         let dst = UIGraphicsGetImageFromCurrentImageContext()

@@ -14,6 +14,6 @@ target 'SRCNNKit' do
   use_frameworks!
 
   # Pods for SRCNNKit
-  pod 'CoreMLHelpers', :git => 'git@github.com:hollance/CoreMLHelpers.git'
+  #pod 'CoreMLHelpers', :git => 'git@github.com:hollance/CoreMLHelpers.git'
 
 end
