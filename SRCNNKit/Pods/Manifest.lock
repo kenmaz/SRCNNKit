@@ -1,0 +1,21 @@
+PODS:
+  - CoreMLHelpers (0.1.0)
+
+DEPENDENCIES:
+  - "CoreMLHelpers (from `git@github.com:hollance/CoreMLHelpers.git`)"
+
+EXTERNAL SOURCES:
+  CoreMLHelpers:
+    :git: "git@github.com:hollance/CoreMLHelpers.git"
+
+CHECKOUT OPTIONS:
+  CoreMLHelpers:
+    :commit: 996af54f8b89cd14978fb6a38cf45323657be4ee
+    :git: "git@github.com:hollance/CoreMLHelpers.git"
+
+SPEC CHECKSUMS:
+  CoreMLHelpers: 25cc181995f16ab9168e234b0d236686cb2cdbe5
+
+PODFILE CHECKSUM: 0937bc58af43b8dcf2c3dfe265c56299735bea75
+
+COCOAPODS: 1.5.3

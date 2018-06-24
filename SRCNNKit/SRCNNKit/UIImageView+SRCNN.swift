@@ -1,6 +1,6 @@
 //
 //  UIImageView+SRCNN.swift
-//  SRCNN-ios
+//  SRCNNKit
 //
 //  Copyright (c) 2018 DeNA Co., Ltd. All rights reserved.
 //

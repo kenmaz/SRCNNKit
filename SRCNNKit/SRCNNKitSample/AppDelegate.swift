@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SRCNN-ios
+//  SRCNNKitSample
 //
 //  Copyright (c) 2018 DeNA Co., Ltd. All rights reserved.
 //

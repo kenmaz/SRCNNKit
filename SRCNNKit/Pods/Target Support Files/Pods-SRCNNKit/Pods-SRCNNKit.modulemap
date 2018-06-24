@@ -1,0 +1,6 @@
+framework module Pods_SRCNNKit {
+  umbrella header "Pods-SRCNNKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
