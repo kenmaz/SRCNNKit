@@ -541,7 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 348A548DE0469D301B7E695B /* Pods-SRCNN-ios.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9UCJ653YY;
@@ -559,7 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C022503E02B3264F309A5F2 /* Pods-SRCNN-ios.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9UCJ653YY;
